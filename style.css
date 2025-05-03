@@ -196,6 +196,7 @@ span {
     font-size: large;
     text-align: center;
     box-shadow: 10px 10px 10px gray;
+    
 }
 
 .b {
@@ -316,7 +317,7 @@ i{
     
 }
 .rightone{
-    width: 630px;
+    /* width: 630px; */
     height: 500px;
     color: white;
     border-radius: 10px;
@@ -382,6 +383,14 @@ footer{
      margin-top: 20px;border-radius: 10px;
      background-color: rgba(255, 255, 255, 0.578);
 }
+.sixthmain{
+    margin-top: 450px;
+    
+}
+.right{
+    width: 500px;
+    height: 500px;
+}
 @media screen and (max-width:600px) {
     .content{
         flex-direction: column-reverse;
@@ -403,6 +412,8 @@ footer{
     }
     .card2{
         width: 100%;
+        padding-top: 10px;
+        margin-right: 15px;
     }
     .box{
         margin-left: 0px;
@@ -419,5 +430,22 @@ footer{
         margin-left: 180px;
         margin-top: -40px;
     }
-    
+    .sixthmain{
+        margin-top: 1800px;
+    }
+    .card3{
+        margin-right: 15px;
+    }
+    .c{
+        margin-right: 15px;
+    }
+    .right{
+        width: 400px;
+    }
+    .img{
+        padding-left: 0px;
+    }
+    .fk{
+        gap: 0px;
+    }
 }
